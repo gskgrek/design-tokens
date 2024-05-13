@@ -1,0 +1,36 @@
+.card {
+  border-radius: var(--semanticUiBorderRadius);
+  box-shadow: var(--semanticUiShadow);
+  width: 350px;
+  overflow: hidden;
+}
+
+.body {
+  background-color: var(--semanticBgSurface);
+  padding: var(--semanticSpacingUiXlSpaceAround);
+  display: flex;
+  flex-direction: column;
+  gap: var(--semanticSpacingUiXlSpaceAround);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--semanticSpacingUiSSpaceBetween);
+}
+
+.headingText {
+  color: var(--semanticFgDefault);
+  font-size: var(--fontSize7);
+  font-weight: var(--fontWeightSemiBold);
+}
+
+.bodyText {
+  color: var(--semanticFgSubtle);
+  font-size: var(--fontSize2);
+}
+
+.footerActions {
+  display: flex;
+  gap: var(--semanticSpacingUiXsSpaceBetween);
+}

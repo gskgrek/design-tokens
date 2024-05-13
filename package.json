@@ -1,0 +1,32 @@
+{
+  "name": "design-tokens",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare-figma-variables": "tsx scripts/figma-variables/prepareTokens.ts",
+    "transform-figma-variables": "tsx scripts/figma-variables/transformTokens.ts",
+    "figma-variables": "prepare-figma-variables && transform-figma-variables",
+    "token-studio": "tsx scripts/token-studio/transformTokens.ts"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@tokens-studio/sd-transforms": "^0.12.2",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "style-dictionary": "^3.9.2",
+    "token-transformer": "^0.0.33",
+    "tsx": "^4.9.3",
+    "typescript": "^5"
+  }
+}

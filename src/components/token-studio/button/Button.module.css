@@ -1,0 +1,21 @@
+.button {
+  background: var(--buttonCtaDefaultBackgroundColor);
+  height: var(--buttonSHeight);
+  padding-left: var(--buttonSPaddingLeft);
+  padding-right: var(--buttonSPaddingRight);
+  border-width: var(--buttonBorderWidth);
+  border-color: var(--buttonCtaDefaultBorderColor);
+  border-radius: var(--buttonBorderRadius);
+  border-style: solid;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  color: var(--buttonCtaDefaultTextColor);
+  font-size: var(--buttonSTextSize);
+  font-family: var(--buttonFontFamily);
+}
+
+.button:hover {
+  background: var(--buttonCtaHoverBackgroundColor);
+  border-color: var(--buttonCtaHoverBorderColor);
+  color: var(--buttonCtaHoverTextColor);
+}

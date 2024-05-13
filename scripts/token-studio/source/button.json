@@ -1,0 +1,80 @@
+{
+  "button": {
+    "border-radius": {
+      "value": "{semantic.border-radius.actions}",
+      "type": "borderRadius"
+    },
+    "border-width": {
+      "value": "{semantic.border-width.actions}",
+      "type": "borderWidth"
+    },
+    "font-family": {
+      "value": "{semantic.font-family.actions}",
+      "type": "fontFamilies"
+    },
+    "font-weight": {
+      "value": "{semantic.font-weight.actions}",
+      "type": "fontWeights"
+    },
+    "cta": {
+      "default": {
+        "background-color": {
+          "value": "{semantic.color.actions.cta.default.background-color}",
+          "type": "color"
+        },
+        "text-color": {
+          "value": "{semantic.color.actions.cta.default.text-color}",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "{semantic.color.actions.cta.default.border-color}",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "{semantic.color.actions.cta.default.text-color}",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "background-color": {
+          "value": "{semantic.color.actions.cta.hover.background-color}",
+          "type": "color"
+        },
+        "text-color": {
+          "value": "{semantic.color.actions.cta.hover.text-color}",
+          "type": "color"
+        },
+        "border-color": {
+          "value": "{semantic.color.actions.cta.hover.border-color}",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "{semantic.color.actions.cta.hover.text-color}",
+          "type": "color"
+        }
+      }
+    },
+    "s": {
+      "text-size": {
+        "value": "{semantic.font-size.actions.s}",
+        "type": "fontSizes"
+      },
+      "padding-left": {
+        "value": "{semantic.spacing.actions.small.padding-left}",
+        "type": "spacing"
+      },
+      "padding-right": {
+        "value": "{semantic.spacing.actions.small.padding-right}",
+        "type": "spacing"
+      },
+      "icon-size": {
+        "value": "{semantic.sizing.actions.icon-size.small}",
+        "type": "sizing"
+      },
+      "height": {
+        "value": "{semantic.sizing.actions.small}",
+        "type": "sizing"
+      }
+    }
+  }
+}

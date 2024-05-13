@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;600&display=swap');
+
+@import '../configs/tokens/figma-variables/tokens.css';
+@import '../configs/tokens/token-studio/tokens.css';
+
+nav {
+  padding: 8px;
+}
+main {
+  padding: 16px;
+  background-color: var(--semanticBgCanvas);
+}
