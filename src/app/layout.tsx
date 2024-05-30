@@ -1,9 +1,12 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import Link from "next/link";
+import type { Metadata } from "next"
+import Link from "next/link"
+import { Inter } from "next/font/google"
 
-const inter = Inter({ subsets: ["latin"] });
+import { AntdRegistry } from '@ant-design/nextjs-registry'
+
+import "./globals.css";
+
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -18,13 +21,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav>
-          <Link href="/figma-variables">Figma Variables</Link>&nbsp;|&nbsp;
-          <Link href="/token-studio">Token Studio</Link>
-        </nav>
-        <main>
-          {children}
-        </main>
+        <AntdRegistry>
+          <nav>
+            <Link href="/figma-variables">Figma Variables</Link>&nbsp;|&nbsp;
+            <Link href="/token-studio">Token Studio</Link>&nbsp;|&nbsp;
+            <Link href="/design-system">Design System</Link>
+          </nav>
+          <main>
+            {children}
+          </main>
+        </AntdRegistry>
       </body>
     </html>
   );

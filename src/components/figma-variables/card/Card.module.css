@@ -1,0 +1,37 @@
+.card {
+  border-radius: calc(var(--components-card-global-border-radius-lg) * 1px);
+  box-shadow: 0 8px 16px 0 hsla(0, 0%, 0%, 0.15);
+  width: 350px;
+  overflow: hidden;
+  font-family: var(--typography-font-family-font-family);
+}
+
+.body {
+  background-color: var(--components-card-global-color-bg-container);
+  padding: calc(var(--components-card-global-padding) * 1px);
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--components-card-global-padding) * 1px);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--components-card-global-padding) * 1px);
+}
+
+.headingText {
+  color: var(--components-card-global-color-text-heading);
+  font-size: calc(var(--components-card-global-font-size-lg) * 1px);
+  font-weight: var(--components-card-global-font-weight-strong);
+}
+
+.bodyText {
+  color: var(--components-card-global-color-text-description);
+  font-size: calc(var(--components-card-global-font-size) * 1px);
+}
+
+.footerActions {
+  display: flex;
+  gap: calc(var(--components-card-global-padding) * 1px);
+}

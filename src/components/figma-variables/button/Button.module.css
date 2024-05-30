@@ -1,0 +1,21 @@
+.button {
+  background: var(--components-button-global-color-primary);
+  height: calc(var(--components-button-global-control-height) * 1px);
+  padding-left: calc(var(--components-button-global-padding-content-horizontal) * 1px);
+  padding-right: calc(var(--components-button-global-padding-content-horizontal) * 1px);
+  border-width: calc(var(--components-button-global-line-width) * 1px);
+  border-color: var(--components-button-global-color-primary-border);
+  border-radius: calc(var(--components-button-global-border-radius) * 1px);
+  border-style: solid;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  color: var(--components-button-component-primary-color);
+  font-size: calc(var(--components-button-global-font-size) * 1px);
+  font-family: var(--typography-font-family-font-family);
+}
+
+.button:hover {
+  background: var(--components-button-global-color-primary-hover);
+  border-color: var(--components-button-global-color-primary-hover);
+  color: var(--components-button-component-primary-color);
+}
