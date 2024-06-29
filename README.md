@@ -2,7 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -10,14 +20,16 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-* [Ant Design](https://www.figma.com/design/X47QKjfFYoVUHWvUXeiRGa/Ant-Design-System-for-Figma-(Free-version)-(Community)?node-id=791-104&t=VgRzbDui7QBYtzP8-1)
-* [Figma Tokens](https://www.figma.com/design/fWGqIiXClWxo73QRkgj67k/Component-Tokens-%26-Themes-Example-%5Blearn-Figma-Tokens%5D-(Community)?node-id=0-1&t=QYtkvxDqR0cDRLVy-1)
-* [Theme Editor](https://ant.design/theme-editor)
+* Ant Design example for Figma Variables and Design System: `figma/Ant_Design_System_Figma_Variables_Example.fig`
+* [Ant Design Theme Editor](https://ant.design/theme-editor)
+* Example for Tokens Studio: `figma/Figma_Tokens_Example.fig`
 
+Used Figma plugins:
+* Token Studio for Figma
+* Variables Pro
 
+[Style Dictionary docs](https://amzn.github.io/style-dictionary/#/README)
